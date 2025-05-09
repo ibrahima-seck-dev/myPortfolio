@@ -1,0 +1,162 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Portfolio Ibrahima SECK</title>
+</head>
+
+<body>
+
+    <header id="home">
+        <nav>
+            <div class="logo">Port<span>folio</span></div>
+            <div class="menu-toggle"><i class="bx bx-menu"></i></div>
+            <ul class="navbar">
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#projects">Portfolio</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#formation">Formation</a></li>
+                <li><a href="#experience">Expériences</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="intro">
+            <div class="text">
+                <h1>Bonjour, je suis <span>Ibrahima SECK</span></h1>
+                <p class="subtitle">Étudiant L3 MIAGE & Passionné de cybersécurité</p>
+                <div class="social-icons">
+                    <a href="#"><i class='bx bxl-linkedin-circle'></i></a>
+                    <a href="#"><i class='bx bxl-github'></i></a>
+                </div>
+                <a href="document/CVIbrahima_SECK.pdf" download class="btn-cv">Télécharger mon CV</a>
+            </div>
+            <div class="avatar"><img src="img/image.jpg" alt="Ibrahima SECK"></div>
+        </div>
+    </header>
+
+    <main>
+        <!-- À propos -->
+        <section id="about" class="about">
+            <h2 class="section-title">À propos de <span>moi</span></h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Qui suis-je ?</h3>
+                    <p>Étudiant en L3 MIAGE à Aix‑Marseille Université, spécialisation cybersécurité. Compétences :
+                        Java, Python, SQL, réseau, gestion de projet.</p>
+                </div>
+                <div class="about-img"><img src="img/propos.jpeg" alt="À propos de moi"></div>
+            </div>
+        </section>
+
+        <!-- Compétences -->
+        <section id="skills" class="skills">
+            <h2 class="section-title">Mes <span>compétences</span></h2>
+            <div class="skills-categories">
+                <div class="skill-group">
+                    <h3><i class='bx bx-world'></i>Dév web</h3>
+                    <ul>
+                        <li><i class='bx bx-code-alt'></i>HTML & CSS</li>
+                        <li><i class='bx bxl-javascript'></i>JavaScript</li>
+                        <li><i class='bx bxl-babylonjs'></i>BabylonJS</li>
+                        <li><i class='bx bx-phone'></i>Responsive</li>
+                    </ul>
+                </div>
+                <div class="skill-group">
+                    <h3><i class='bx bx-brackets-curly'></i>Langages</h3>
+                    <ul>
+                        <li><i class='bx bxl-python'></i>Python</li>
+                        <li><i class='bx bxl-java'></i>Java</li>
+                    </ul>
+                </div>
+                <div class="skill-group">
+                    <h3><i class='bx bx-database'></i>Bases SQL</h3>
+                    <ul>
+                        <li><i class='bx bxl-microsoft-sql-server'></i>SQL Server (Triggers, procédures)</li>
+                        <li><i class='bx bxl-oracle'></i>Oracle SQL (PL/SQL)</li>
+                    </ul>
+                </div>
+                <div class="skill-group">
+                    <h3><i class='bx bx-shield'></i>Cybersécurité</h3>
+                    <ul>
+                        <li><i class='bx bx-file-find'></i>Analyse de logs</li>
+                        <li><i class='bx bx-network-chart'></i>TCP/IP, DNS</li>
+                        <li><i class='bx bx-bug'></i>OWASP Top 10</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projets (exemple statique) -->
+        <section id="projects" class="projects">
+            <h2 class="section-title">Mes <span>projets</span></h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <h3>Gestion de tâches (Java)</h3>
+                    <p>App desktop Java/Swing pour organiser, prioriser et suivre vos tâches.</p>
+                    <a href="#" class="btn-outline">Voir le code</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- Formation -->
+        <section id="formation" class="formation">
+            <h2 class="section-title">Mon <span>parcours</span></h2>
+            <ul class="timeline">
+                <li><span class="year">2022–25</span>
+                    <p>L3 MIAGE — AMU</p>
+                </li>
+                <li><span class="year">2025–27</span>
+                    <p>Master Cybersécurité</p>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Expériences Pro -->
+        <section id="experience" class="experience-section">
+            <h2 class="section-title">Mes <span>expériences pro</span></h2>
+            <div class="experience-list">
+                <div class="experience">
+                    <img src="img/Saint-Gobain_logo.svg.png" alt="Saint‑Gobain" class="exp-logo">
+                    <div class="exp-info">
+                        <h3>Data Engineer Intern</h3>
+                        <p class="exp-date">Avril – Août 2024</p>
+                        <button class="btn-toggle-experience">Voir plus</button>
+                        <div class="experience-more">
+                            <ul>
+                                <li>Conception de pipelines ETL en Python & SQL Server</li>
+                                <li>Développement de procédures stockées & triggers</li>
+                                <li>Automatisation de rapports Power BI</li>
+                                <li>Collaboration avec l’équipe BI pour la qualité des données</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="contact">
+            <h2 class="section-title">Contact</h2>
+            <form action="mailto:seck11201@gmail.com" method="post">
+                <input name="name" placeholder="Nom" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea name="msg" placeholder="Message" rows="4" required></textarea>
+                <button class="btn" type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Ibrahima SECK</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
